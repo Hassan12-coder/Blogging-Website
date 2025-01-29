@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": https://github.com/Hassan12-coder/Blogging-Website/issues
+    "url":"https://github.com/Hassan12-coder/Blogging-Website/issues"
   },
-  "homepage": "https://github.com/Hassan12-coder/Blogging-Website#readme"
+  "homepage": "https://github.com/Hassan12-coder/Blogging-Website#readme",
   "devDependencies": {
     "stylelint": "^16.14.1",
     "stylelint-config-standard": "^37.0.0",
