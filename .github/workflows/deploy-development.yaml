@@ -27,8 +27,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
-      contents: read
+      id-token: write   # Ensures the ID token can be requested
+      contents: read    # Allows reading repo contents
+      pages: write      # Adds permission to deploy to GitHub Pages
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
