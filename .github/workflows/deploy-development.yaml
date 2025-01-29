@@ -1,4 +1,4 @@
-name: Deploy to Development
+name: PR Validation and Deployment
 
 on:
   pull_request:
